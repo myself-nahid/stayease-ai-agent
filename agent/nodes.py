@@ -1,5 +1,5 @@
 from langchain_core.messages import AIMessage
-from langgraph.prebuilt import ToolNode
+from langgraph.prebuilt.tool_node import ToolNode
 from agent.state import AgentState
 from agent.tools import stay_ease_tools
 
